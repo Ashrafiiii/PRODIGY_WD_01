@@ -21,7 +21,7 @@
 
 #navbar ul li a {
   text-decoration: none;
-  color: #fff; /* Initial font color */
+  color: #B79AFE; /* Initial font color */
   padding: 10px;
   transition: color 0.3s ease;
 }
@@ -34,7 +34,38 @@
 #navbar ul li a i {
   margin-right: 5px;
 }
-.menu ul li:hover {
-  color: #fff; /* Change text color on hover */
-  background-color: #333; /* Change background color on hover */
+.menu table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.menu th, .menu td {
+  padding: 12px;
+  text-align: center;
+}
+
+.menu th {
+  background-color: #443852;
+  color: #E2EAF4;
+}
+
+.menu tbody tr:nth-child(even) {
+  background-color: #F4EAF1;
+}
+
+.menu tbody tr:hover {
+  background-color: #ddd;
+}
+
+.menu tbody tr:last-child {
+  border-bottom: 2px solid #333;
+}
+
+.menu tbody td:first-child {
+  text-align: left;
 }
